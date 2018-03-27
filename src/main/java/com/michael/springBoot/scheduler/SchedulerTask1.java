@@ -21,7 +21,7 @@ public class SchedulerTask1 {
     /**
      * 每六秒执行一次
      */
-    @Scheduled(cron = "*/6 * * * * ?")
+    //@Scheduled(cron = "*/6 * * * * ?")
     private void testSchedulerTask1() {
         System.out.println("testSchedulerTask1 is runing : " + (count++));
     }
@@ -29,7 +29,7 @@ public class SchedulerTask1 {
     /**
      * 每六秒执行一次
      */
-    @Scheduled(fixedRate = 6000)
+    //@Scheduled(fixedRate = 6000)
     public void testSchedulerTask2() {
         System.out.println("now is ：" + dateFormat.format(new Date()));
     }

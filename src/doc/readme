@@ -225,7 +225,9 @@
                 8. 登录注册密码加密传输。
                 9. 集成验证码。
                 10. 记住我的功能。关闭浏览器后还是登录状态。
-
+        8).已测spring定时任务.
+            配置: com.michael.springBoot.Application
+            任务: com/michael/springBoot/scheduler/SchedulerTask1.java
 
 
 
